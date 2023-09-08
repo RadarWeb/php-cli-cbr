@@ -1,0 +1,16 @@
+{
+  "name": "radarweb/php-cli-cbr",
+  "type": "prohect",
+  "description": "Get data from CBR with Minicli",
+  "license": "MIT",
+  "homepage": "https://github.com/radarweb/php-cli-cbr",
+  "autoload": {
+	"psr-4": {
+	  "Command\\": "Command/"
+	}
+  },
+  "require": {
+	"minicli/minicli": "^4.2",
+	"nesbot/carbon": "^2.70.0"
+  }
+}
